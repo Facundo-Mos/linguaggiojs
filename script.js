@@ -106,5 +106,75 @@ console.log(e === e);       //nulo es diverso que indefinido
 
 
 
+//Controllo di Flusso
+var numero = window.prompt("inserisci un numero");
+
+if (numero % 2 == 0) {
+    window.alert("numero pari");
+else
+    window.alert("numero dispari");
+};
+
+var mese = window.prompt("inserisci il numero del mese")
+
+switch (mese) {
+    case "1":
+        window.alert("gennaio");
+    break;
+    case "2":
+        window.alert("febraio");
+    break;
+    case "3":
+        window.alert("Marzo");
+    break;
+    case "4":
+        window.alert("Aprile");
+    break;
+    case "5":
+        window.alert("Maggio");
+    break;
+    case "6":
+        window.alert("giungno");
+    break;
+    case "7":
+        window.alert("Luglio");
+    break;
+    case "8":
+        window.alert("Agosto");
+    break;
+    case "9":
+        window.alert("settembre");
+    break;
+    case "10":
+        window.alert("Ottobre");
+    break;
+    case "11":
+        window.alert("Novembre");
+    break;
+    case "12":
+        window.alert("Dicembre");
+    break;
+    default:
+};
+
+
+console.logd(document.getElementById("elemento-1"));
+console.logd(document.getElementsByClassName('elementi'));
+console.logd(document.getElementsByTagName('p'));
+
+console.log(document.querySelector('.elementi'));
+console.log(document.querySelectorAll('.elementi'));
+
+var lista = document.getElementById('genitori');
+var lista = document.getElementsByClassName('Figlio');      //3 figlio
+
+//inserire il codice Html
+lista.innerHTML = "<li>1</li><li class='figlio>2</li>";
+console.log(lista.getElementsByClassName(figlio));      //figlio 1
+
+lista.innerText = "<li>1</li><li class='figlio>2</li>";
+console.log(lista.getElementsByClassName('figlio'));        //figlio
+
+
 
 
